@@ -1,8 +1,10 @@
-/* Programming to print out a string of text using puts */
-
 #include <stdio.h>
-int main(void) /* code execution begins here */
+/**
+ * main - denote where the program starts
+ * Return: end of program execution
+ */
+int main(void)
 {
-	puts("Programming is like building a multilingual puzzle \n");
-	return (0); /* end of program execution */
+	puts("Programming is like building a multilingual puzzle\n");
+	return (0);
 }

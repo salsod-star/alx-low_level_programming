@@ -5,9 +5,9 @@
 /* betty style doc for function main goes there */
 
 /*
- * main - program starts. Determines the positivity of number
+ * main - Program starts. Determines the positivity of number
  *
- * return 0
+ * Return: return 0
  */
 
 int main(void)
@@ -20,15 +20,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf('%d is postive\n', n);
+		printf("%d is postive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf('%d is negative\n', n);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf('%d is zero\n', n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }

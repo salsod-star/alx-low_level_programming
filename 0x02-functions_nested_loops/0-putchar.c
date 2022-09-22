@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
  *  main - a program that prints '_putchar'
@@ -8,7 +8,15 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	char string[8] = "_putchar";
+	int i;
+
+	for (i = 0; i < string.length; i++)
+	{
+
+		_putchar(string[i]);
+	}
+	_putchar('\n');
 
 	return (0);
 }
